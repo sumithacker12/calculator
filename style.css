@@ -5,32 +5,22 @@ body {
 
 @media (max-width: 450px) {
     body {
-        padding: 5px;
+        padding: 1px;
         justify-content: center;
         align-items: center;
     }
 
-    .js-calculation {
-        max-width: none;
-        width: 100%;
-        min-width: 0;
-        box-sizing: border-box;
-    }
+    
 
-    button {
+    .num-btn, .operator-btn {
+        height: 60px;
+        padding: 5px;
+        margin-right: 2px; 
+        font-size: 35px; 
         font-size: 15px;
         font-weight: bolder;
         justify-content: center;
         align-items: center;
-    }
-
-    .num-btn, .operator-btn {
-        max-width: none;
-        width: 100px;
-        height: 100px;
-        padding: 10px;
-        margin-right: 2px; 
-        font-size: 20px;   
     }
 
 }
@@ -39,10 +29,10 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 45px;
+    margin-bottom: 2px;
     border: 2px solid white;
-    width: 260px;
+    width: 330px;
     height: 50px;
 }
 
@@ -62,8 +52,8 @@ button {
     padding: 10px;
     cursor: pointer;
     margin-right: 3px;
-    width: 60px;
-    height: 60px;
+    width: 82px;
+    height: 82px;
 }
 
 .operator-btn {
@@ -74,12 +64,13 @@ button {
     padding: 10px;
     cursor: pointer;
     margin-right: 3px;
-    width: 60px;
-    height: 60px;
+    width: 82px;
+    height: 82px;
 }
 
 .clear {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
