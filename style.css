@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 450px) {
+    body {
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .js-calculation {
+        max-width: none;
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    button {
+        font-size: 15px;
+        font-weight: bolder;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .num-btn, .operator-btn {
+        max-width: none;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-right: 2px; 
+        font-size: 20px;   
+    }
+
+}
+
+.js-calculation {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    width: 260px;
+    height: 50px;
+}
+
+button {
+    font-size: 21px;
+    font-weight: bolder;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.num-btn {
+    background-color: darkgray;
+    color: white;
+    border:2px solid transparent;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.operator-btn {
+    background-color: orange;
+    color: white;
+    border:2px solid transparent;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
